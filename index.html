@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <!-- Google fonts Inter  -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <!-- The main css file  -->
+    <link rel="stylesheet" href="./src/output.css">
+
+    <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
+
+
+  </head>
+
+  <body>
+    <main class="md:flex items-center justify-center md:h-screen flex-row-reverse lg:px-10">
+      <section class="p-7 relative">
+        <picture
+          class="custom_bg_img">
+          <img id="img" class="w-[78%] z-20 rounded-lg" src="./images/image-john.jpg" alt="john">
+        </picture>
+        <!-- Next and Previous Buttons  -->
+        <div
+          class="btns absolute left-[50%] xl:left-[30%] translate-x-[-50%] top-[78%] xl:top-[82%] bg-gray-50 w-20 xl:w-28 rounded-3xl h-10 xl:h-14 flex justify-around items-center z-30 shadow-md">
+          <button id="prev">
+            <img src="./images/icon-prev.svg" alt="next-btn">
+          </button>
+          <button id="next">
+            <img src="./images/icon-next.svg" alt="next-btn">
+        </div>
+        <!-- Next and Previous Buttons // -->
+      </section>
+
+      <!--Text Section-->
+      <article>
+        <p id="text" class="text-lg lg:text-2xl p-6 text-center text-dark_blue leading-tight xl:text-3xl">
+          “ If you want to lay the best foundation possible I’d recommend taking this course.
+          The depth the instructors go into is incredible. I now feel so confident about
+          starting up as a professional developer. ”
+        </p>
+        <div class="user_info md:flex items-center justify-center gap-3">
+          <h3 id="title" class="font-bold text-dark_blue text-lg text-center">John Tarkpor</h3>
+          <span id="job" class="text-grayish_blue text-lg text-center block">Junior Front-end Developer</span>
+        </div>
+      </article>
+      <!--Text Section //-->
+    </main>
+
+
+    
+
+
+
+    
+    
+      <div class="cerve h-20 sm:h-24 lg:h-36 absolute bottom-0 left-0 right-0"></div>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Ouss_Ach</a>.
+    </div>
+    <script src="./src/main.js"></script>
+  </body>
+
+</html>
