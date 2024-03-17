@@ -11,10 +11,10 @@ let statusImg = true;
 nextBtn.addEventListener('click', () => {
 	preparationInfo(statusImg);
 	if (statusImg) {
-		img.src = '../images/image-tanya.jpg';
+		img.src = './images/image-tanya.jpg';
 		statusImg = false;
 	} else {
-		img.src = '../images/image-john.jpg';
+		img.src = './images/image-john.jpg';
 		statusImg = true;
 	}
 	
@@ -24,10 +24,10 @@ prevBtn.addEventListener('click', () => {
 	preparationInfo(statusImg);
 	if (statusImg) {
 
-		img.src = '../images/image-tanya.jpg';
+		img.src = './images/image-tanya.jpg';
 		statusImg = false;
 	} else {
-		img.src = '../images/image-john.jpg';
+		img.src = './images/image-john.jpg';
 		statusImg = true;
 	}
 	
