@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [My solution](https://github.com/OUSSAMAACHICHE/coding_pootcamp_testimonials_slider)
+- Live Site URL: [Live site](https://oussamaachiche.github.io/coding_pootcamp_testimonials_slider/)
 
 ## My process
 
