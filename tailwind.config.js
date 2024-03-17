@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export const content = ["index.html", "./src/*/.{js,css}"];
+export const content = ["index.html", "./src/**/.{js,css}"];
 export const theme = {
   extend: {
     colors: {
